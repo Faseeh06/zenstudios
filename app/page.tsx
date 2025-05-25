@@ -23,9 +23,9 @@ export default function HomePage() {
               className="text-6xl md:text-8xl lg:text-9xl font-black  mb-6 leading-tight tracking-tight text-foreground "
               
             >
-              Developing
+              Your vision,
               <br />
-              tomorrow, today
+              our code.
             </h1>
             <p className="text-3xl  mb-20 text-secondary">
               We make what you say :)
@@ -73,24 +73,24 @@ export default function HomePage() {
         {/* Featured Projects */}
         <section className="px-6 py-16">
           <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-6">
-            {/* Zenbud Project */}
-            <Link href="/projects/zenbud">
+            {/* Alcranium Project */}
+            <Link href="/projects/alcranium">
               <div
                 className="relative overflow-hidden rounded-2xl h-96 w-full group cursor-pointer border border-dashed border-[#f3f4f6]"
                 style={{ minHeight: '22rem', borderWidth: '1px', borderStyle: 'dashed', borderColor: '#f3f4f6', borderRadius: '1rem', borderImage: 'none', borderSpacing: 0, boxSizing: 'border-box' }}
               >
                 <img
-                  src="/images/zenbud.png"
-                  alt="Zenbud project image"
+                  src="/images/alcranium.png"
+                  alt="Alcranium project image"
                   className="absolute inset-0 w-full h-full object-cover scale-105 group-hover:scale-110 transition-transform duration-500"
                 />
                 <div
                   className="absolute left-1/2 -translate-x-1/2 bottom-4 w-[95%] rounded-2xl bg-black/70 backdrop-blur-sm px-6 py-2 flex flex-col items-start shadow-lg"
                   style={{ background: 'rgba(0,0,0,0.7)' }}
                 >
-                  <p className="text-xs font-medium text-[#f0f2f4]/80 mb-0.5">March,2025</p>
-                  <h3 className="text-base md:text-lg font-black text-[#f0f2f4] mb-0.5">Zenbud: Your Ultimate Academic Companion</h3>
-                  <span className="text-[#f0f2f4] text-xs font-medium">Explore how Zenbud helps students stay organized, focused, and productive.</span>
+                  <p className="text-xs font-medium text-[#f0f2f4]/80 mb-0.5">March,2024</p>
+                  <h3 className="text-base md:text-lg font-black text-[#f0f2f4] mb-0.5">Alcranium: The Student Productivity Suite</h3>
+                  <span className="text-[#f0f2f4] text-xs font-medium">Discover how Alcranium unifies all your study tools in one powerful, modern web app.</span>
                 </div>
               </div>
             </Link>
