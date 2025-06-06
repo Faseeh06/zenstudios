@@ -42,8 +42,8 @@ export default function CareersPage() {
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-start">
               {/* Left Side - Image */}
-              <div className="lg:-ml-24">
-                <div className="relative w-full max-w-xl">
+              <div className="lg:-ml-32">
+                <div className="relative w-full max-w-2xl">
                   <Image
                     src="/images/careers.png"
                     alt="Careers at ZenStudios"

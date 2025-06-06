@@ -36,8 +36,8 @@ export function Navbar() {
             >
               Services
             </Link>
-            <Link href="/about" className="hover:opacity-80 transition-colors font-bold text-secondary">
-              Who Are We
+            <Link href="/careers" className="hover:opacity-80 transition-colors font-bold text-secondary">
+              Careers
             </Link>
             <Link
               href="/toolkit"

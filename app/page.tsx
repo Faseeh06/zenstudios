@@ -160,22 +160,24 @@ export default function HomePage() {
         {/* Who Are We Section */}
         <section className="px-6 py-16">
           <div className="max-w-7xl mx-auto">
-            <div className="grid md:grid-cols-2 gap-12 items-stretch">
-              <div className="text-white p-8 rounded-2xl bg-secondary-main h-full flex flex-col justify-center">
-                <h2 className="text-5xl font-black mb-6">Who are we ?</h2>
-                <p className="leading-relaxed font-bold opacity-90">
-                  We are ZenStudios, a dynamic development studio powered by a team of young, talented professionals. We
-                  specialize in creating custom software solutions that elevate startups with tailored branding, websites,
-                  apps, and more. With a keen understanding of the new wave of business, we craft innovative digital
-                  experiences that drive growth and success.
-                </p>
-              </div>
-              <div className="bg-white p-8 rounded-2xl flex items-center justify-center shadow-lg h-full">
-                <div className="flex items-center justify-center w-full h-full">
-                  <img src="/images/logo.png" alt="ZenStudios Logo" className="max-h-32 object-contain" />
+            <Link href="/who-are-we">
+              <div className="grid md:grid-cols-2 gap-12 items-stretch cursor-pointer group">
+                <div className="text-white p-8 rounded-2xl bg-secondary-main h-full flex flex-col justify-center group-hover:bg-secondary-main/80 transition-colors">
+                  <h2 className="text-5xl font-black mb-6">Who are we?</h2>
+                  <p className="leading-relaxed font-bold opacity-90">
+                    We are ZenStudios, a dynamic development studio powered by a team of young, talented professionals. We
+                    specialize in creating custom software solutions that elevate startups with tailored branding, websites,
+                    apps, and more. With a keen understanding of the new wave of business, we craft innovative digital
+                    experiences that drive growth and success.
+                  </p>
+                </div>
+                <div className="bg-white p-8 rounded-2xl flex items-center justify-center shadow-lg h-full group-hover:shadow-xl transition-shadow">
+                  <div className="flex items-center justify-center w-full h-full">
+                    <img src="/images/logo.png" alt="ZenStudios Logo" className="max-h-32 object-contain" />
+                  </div>
                 </div>
               </div>
-            </div>
+            </Link>
           </div>
         </section>
 
