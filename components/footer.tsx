@@ -65,6 +65,15 @@ export function Footer() {
           </div>
           <div className="border-b border-dotted border-white/40 pb-4">
             <Link
+              href="/careers"
+              className="flex items-center justify-between hover:opacity-80 transition-colors font-bold text-lg group text-[#f0f2f4]"
+            >
+              <span>Careers</span>
+              <ArrowUpRight className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform" />
+            </Link>
+          </div>
+          <div className="border-b border-dotted border-white/40 pb-4">
+            <Link
               href="/privacy"
               className="flex items-center justify-between hover:opacity-80 transition-colors font-bold text-lg group text-[#f0f2f4]"
             >
