@@ -82,7 +82,7 @@ export function Navbar() {
                   <Link href="/services" className="w-full font-bold">Services</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
-                  <Link href="/about" className="w-full font-bold">Who Are We</Link>
+                  <Link href="/careers" className="w-full font-bold">Careers</Link>
                 </DropdownMenuItem>
                 <DropdownMenuItem asChild>
                   <Link href="/toolkit" className="w-full font-bold">Toolkit</Link>

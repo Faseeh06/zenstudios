@@ -81,7 +81,7 @@ export default function CareersPage() {
                       { name: "Marketing", icon: Megaphone },
                       { name: "Social Media Manager", icon: Megaphone },
                       { name: "Psychology & User Research", icon: Heart },
-                      { name: "And more", icon: Sparkles }
+                      { name: "Electrical Engineering", icon: Sparkles }
                     ].map(({ name, icon: Icon }) => (
                       <div key={name} className="bg-secondary-main/50 p-4 rounded-xl flex items-center gap-3 hover:bg-secondary-main/70 transition-colors">
                         <Icon className="w-6 h-6 text-white/80" />
