@@ -122,9 +122,9 @@ export default function CareersPage() {
                     <div className="bg-secondary-main/50 p-4 rounded-xl hover:bg-secondary-main/70 transition-colors">
                       <h3 className="text-2xl font-black mb-2 flex items-center gap-2">
                         <Users className="w-6 h-6" />
-                        Mentorship & Collaboration
+                        Company Collaborations
                       </h3>
-                      <p className="text-lg ml-8 text-white/80">In collaboration with Dr. Momena Moetsum</p>
+                      <p className="text-lg ml-8 text-white/80">Work with innovative companies like KarobarBox, Spark, Project Shaoor, and Cight Browser</p>
                     </div>
                   </div>
                 </div>

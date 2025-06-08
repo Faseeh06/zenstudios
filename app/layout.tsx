@@ -11,13 +11,18 @@ const inter = Inter({
 })
 
 export const metadata: Metadata = {
-  title: "ZenStudios - Developing Tomorrow, Today",
+  title: "ZenStudios",
   description:
     "We make apps & websites, that's it! ZenStudios is a dynamic development studio powered by a team of young, talented professionals.",
   keywords: ["web development", "mobile apps", "design", "branding", "consulting"],
   authors: [{ name: "ZenStudios" }],
+  icons: {
+    icon: '/images/draggable-logo.png',
+    shortcut: '/images/draggable-logo.png',
+    apple: '/images/draggable-logo.png',
+  },
   openGraph: {
-    title: "ZenStudios - Developing Tomorrow, Today",
+    title: "ZenStudios",
     description: "We make apps & websites, that's it!",
     url: "https://zenstudios.com",
     siteName: "ZenStudios",
@@ -25,7 +30,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "ZenStudios - Developing Tomorrow, Today",
+    title: "ZenStudios",
     description: "We make apps & websites, that's it!",
   },
 }
