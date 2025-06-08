@@ -158,7 +158,7 @@ export default function CareersPage() {
                   </h2>
                   <div className="bg-secondary-main/50 p-6 rounded-xl hover:bg-secondary-main/70 transition-colors">
                     <p className="text-lg leading-relaxed text-white/80">
-                      This is a valuable opportunity for students and fresh graduates to gain industry-level experience, 
+                      This is a valuable opportunity for first and second year students to gain industry-level experience, 
                       expand their professional network, and be part of startup ventures from the ground up. While the 
                       internships are unpaid, high-performing interns may be considered for long-term roles or equity in 
                       the projects they contribute to.
